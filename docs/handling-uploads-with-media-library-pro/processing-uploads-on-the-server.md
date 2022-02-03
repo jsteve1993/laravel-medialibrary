@@ -360,7 +360,7 @@ $yourModel
     ->toMediaCollection('images');
 ```
 
-Alternatively, you can pass a callable to `usingFileName`. This callable accepts an instance of `Spatie\MediaLibraryPro\MediaLibraryRequestItem` which can be used to get properties of the uploaded file.
+Alternatively, you can pass a callable to `usingFileName`. This callable accepts an instance of `Spatie\MediaLibraryPro\Dto\MediaLibraryRequestItem` which can be used to get properties of the uploaded file.
 
 In this example we're going to lowercase the name of the uploaded file before adding it the media library.
 
